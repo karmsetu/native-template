@@ -1,50 +1,75 @@
 # Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a minimal [Expo](https://expo.dev) project created .
 
 ## Get started
 
 1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    bun expo init my-app --template https://github.com/yourusername/your-template-repo
+    ```
+
+    ```bash
+    npx expo init my-app --template https://github.com/yourusername/your-template-repo
+    ```
+
+    ```bash
+    yarn expo init my-app --template https://github.com/yourusername/your-template-repo
+    ```
 
 2. Start the app
 
-   ```bash
+    ```bash
+    bun expo start
+    ```
+
+    ```bash
     npx expo start
-   ```
+    ```
 
-In the output, you'll find options to open the app in a
+    ```bash
+    yarn expo start
+    ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Packages Used
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### **1. UI & Styling**
 
-## Get a fresh project
+-   **NativeWind** – Tailwind CSS for React Native.
 
-When you're ready, run:
+### **2. State Management**
 
-```bash
-npm run reset-project
-```
+-   **Zustand** – Lightweight and simple global state management.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### **3. API & Networking**
+
+-   **Axios** – HTTP client for API requests.
+-   **TanStack Query (React Query)** – Better API caching and state management.
+
+### **4. Navigation**
+
+-   **React Navigation** – Essential for screen transitions and deep linking.
+
+### **5. Authentication & Security**
+
+-   **JWT Handling** – With refresh token logic.
+
+### **6. Utilities**
+
+-   **Date-fns / Day.js** – Date formatting and manipulation.
+-   **AsyncStorage** – Local storage for saving small data.
 
 ## Learn more
 
 To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+-   [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+-   [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
 ## Join the community
 
 Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-   [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+-   [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
