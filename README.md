@@ -7,7 +7,7 @@ This is a minimal [Expo](https://expo.dev) project created to remove the hassle 
 1. Install dependencies
 
     ```bash
-    bun expo init my-app --template https://github.com/karmsetu/native-template
+    bunx create expo MyNewApp --template https://github.com/karmsetu/native-template
     ```
 
     ```bash
