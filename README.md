@@ -1,21 +1,21 @@
 # Welcome to your Expo app 👋
 
-This is a minimal [Expo](https://expo.dev) project created .
+This is a minimal [Expo](https://expo.dev) project created to remove the hassle of seperatley downloading each dependency.
 
 ## Get started
 
 1. Install dependencies
 
     ```bash
-    bun expo init my-app --template https://github.com/yourusername/your-template-repo
+    bun expo init my-app --template https://github.com/karmsetu/native-template
     ```
 
     ```bash
-    npx expo init my-app --template https://github.com/yourusername/your-template-repo
+    npx expo init my-app --template https://github.com/karmsetu/native-template
     ```
 
     ```bash
-    yarn expo init my-app --template https://github.com/yourusername/your-template-repo
+    yarn expo init my-app --template https://github.com/karmsetu/native-template
     ```
 
 2. Start the app
